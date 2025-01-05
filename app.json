@@ -1,12 +1,23 @@
 {
   "expo": {
-    "name": "reactNativeTest2",
-    "slug": "reactNativeTest2",
+    "name": "simpleDynamicWeatherApp",
+    "slug": "simple-dynamic-weather-app",
     "version": "1.0.0",
     "orientation": "portrait",
+    "newArchEnabled": true,
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
+    "extra": {
+      "apiKey": "5a4295b0a985c2d5c4f2016e69e7372b",
+      "environment": "development",
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1c2f0a69-7bc4-41c3-9ae2-f2ce75d9d6c4"
+      }
+    },
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
@@ -19,7 +30,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.abdelrahman44.simpledynamicweatherapp"
     },
     "web": {
       "bundler": "metro",
@@ -27,7 +39,8 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
