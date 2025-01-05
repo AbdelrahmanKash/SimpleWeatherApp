@@ -1,6 +1,5 @@
 import { Stack } from "expo-router";
 import React from "react";
-import { createStackNavigator } from "@react-navigation/stack";
 
  const RootLayout =() => {
   return (
